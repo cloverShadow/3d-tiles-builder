@@ -17,3 +17,18 @@ Run the tests:
 ```
 npm run test
 ```
+
+packger the tool:
+```
+npm run packger
+```
+
+debug:
+```
+npm run debug
+```
+
+encryption:
+```
+npm run encryption
+```
