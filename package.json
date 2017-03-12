@@ -1,0 +1,24 @@
+{
+  "name": "test-b3dm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./source/main.js",
+  "scripts": {
+    "test": "electron .",
+    "debug": "electron . --debug-brk=5858",
+    "packger": "electron-packager ./ test-b3dm --all --out ./OutApp --version 1.4.0 --overwrite --icon=./page/image/icon.png",
+    "encryption": "asar pack ./OutApp/test-b3dm-linux-armv7l/resources/app app.asar"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cesium": "^1.31.0",
+    "electron": "^1.6.2",
+    "obj2gltf": "^0.1.7"
+  },
+  "devDependencies": {
+    "asar": "^0.13.0",
+    "electron-packager": "^8.5.2",
+    "node-inspector": "^0.12.8"
+  }
+}

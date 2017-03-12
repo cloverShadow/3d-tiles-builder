@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <title>3D-TILES转换工具</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" href="./jslib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./jslib/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="header">
+    <div class="icon"></div>
+    <div class="icon-title">
+        <p>3D-TILES转换工具</p>
+    </div>
+    <div class="icon icon-closed"></div>
+    <div class="icon icon-maxmize"></div>
+    <div class="icon icon-minimize"></div>
+</div>
+<!--主程序界面-->
+<div class="tools-body">
+    <div class="source-file">源文件:</div><i id="source-string" style="position:absolute;top: 95px;left: 180px;">显示包含源文件的操作目录</i>
+    <div class="out-file">目标路径:</div><i id="out-string" style="position:absolute;top: 135px;left: 180px;">显示输出结果文件的目录</i>
+    <div class="btn btn-primary start-btn">转换</div>
+    <div class="btn btn-primary savedb-btn">入库</div>
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>
